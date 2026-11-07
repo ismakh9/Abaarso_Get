@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#183c46"/><stop offset="1" stop-color="#0d202b"/></linearGradient>
+ <linearGradient id="shell" x2="0" y2="1"><stop stop-color="#fffdf3"/><stop offset=".45" stop-color="#d9e6e9"/><stop offset="1" stop-color="#9dafb7"/></linearGradient>
+ <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#c9e1d4" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#000" flood-opacity=".3"/></filter>
+ <g id="track"><path d="M-110 520 1010 55" stroke="#425e60" stroke-width="40"/><path d="M-110 520 1010 55" stroke="#233f45" stroke-width="44" stroke-dasharray="6 10"/><path d="M-110 520 1010 55" stroke="#7c9596" stroke-width="21"/><path d="M-110 520 1010 55" stroke="#324d51" stroke-width="13"/></g>
+ <g id="train" filter="url(#shadow)">
+  <path d="M-130-18H91Q129-18 160 0Q129 18 91 18H-130Z" fill="url(#shell)" stroke="#d8e7e7" stroke-width="1.5"/>
+  <path d="M-125 10H106Q126 10 144 2" fill="none" stroke="currentColor" stroke-width="5"/>
+  <path d="M112-13Q131-8 140 0L116 7 103-5Z" fill="#183b4a"/>
+  <path d="M-128-15V15M-40-17V17M44-17V17" stroke="#537078" stroke-width="3"/>
+  <g fill="#42616e"><rect x="-116" y="-12" width="58" height="5" rx="2"/><rect x="-28" y="-12" width="58" height="5" rx="2"/><rect x="56" y="-12" width="34" height="5" rx="2"/></g>
+  <g fill="#a3b5b9"><rect x="-98" y="-3" width="27" height="7" rx="3"/><rect x="-12" y="-3" width="27" height="7" rx="3"/><rect x="66" y="-3" width="20" height="7" rx="3"/></g>
+ </g>
+</defs>
+<rect width="900" height="620" fill="url(#bg)"/><rect width="900" height="620" fill="url(#grid)"/>
+<g fill="none"><path d="M450 70V555M80 310H820" stroke="#aecdc8" stroke-opacity=".18" stroke-width="2"/><use href="#track"/><use href="#track" transform="translate(0 620) scale(1 -1)"/>
+<path d="M348 330C440 288 564 115 940 130M348 290C440 332 564 505 940 490" stroke="#7b9997" stroke-width="19"/><path d="M348 330C440 288 564 115 940 130M348 290C440 332 564 505 940 490" stroke="#335459" stroke-width="11"/>
+<path d="M348 330C440 288 564 115 940 130" stroke="#a4e1cd" stroke-width="3"/><path d="M348 290C440 332 564 505 940 490" stroke="#f2c58b" stroke-width="3"/>
+<circle cx="440" cy="292" r="31" stroke="#ecd29b" stroke-width="2" stroke-dasharray="4 7"/></g>
+<use href="#train" transform="translate(223 381) rotate(-22.5)" color="#29789e"/><use href="#train" transform="translate(223 239) rotate(22.5)" color="#b63d47"/>
+<g fill="#dff1e5" font-family="Arial,sans-serif" font-weight="700"><text x="70" y="554" font-size="31">( x , y )</text></g>
+<g transform="translate(730 485)"><rect width="94" height="57" rx="15" fill="#a6d8bb"/><path d="m28 29 13 13 26-29" fill="none" stroke="#21493e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

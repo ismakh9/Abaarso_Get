@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" fill="none">
+  <title>Golden sky above a misty floating canyon</title>
+  <defs>
+    <linearGradient id="sky" x1="450" y1="0" x2="450" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#ACDCD9"/><stop offset=".44" stop-color="#D4E8D9"/><stop offset="1" stop-color="#F9EDCE"/></linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(655 65) rotate(112) scale(540 630)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8D7" stop-opacity=".94"/><stop offset=".5" stop-color="#FFF5D3" stop-opacity=".23"/><stop offset="1" stop-color="#FFF5D3" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sun" x1="739" y1="35" x2="739" y2="133" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFBE4"/><stop offset="1" stop-color="#F9DA91"/></linearGradient>
+    <linearGradient id="mist" x1="450" y1="408" x2="450" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF5DC" stop-opacity="0"/><stop offset=".65" stop-color="#F6EBCD" stop-opacity=".7"/><stop offset="1" stop-color="#F6EBCD"/></linearGradient>
+    <linearGradient id="rockL" x1="-7" y1="344" x2="117" y2="395" gradientUnits="userSpaceOnUse"><stop stop-color="#87A894"/><stop offset=".5" stop-color="#9DB39A"/><stop offset="1" stop-color="#D4C6A1"/></linearGradient>
+    <linearGradient id="rockR" x1="814" y1="236" x2="915" y2="282" gradientUnits="userSpaceOnUse"><stop stop-color="#DCCDA6"/><stop offset=".55" stop-color="#9AB09A"/><stop offset="1" stop-color="#769D8B"/></linearGradient>
+    <linearGradient id="remote" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#A9C9BB"/><stop offset="1" stop-color="#99BBB5" stop-opacity=".25"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A6C696"/><stop offset="1" stop-color="#5B977D"/></linearGradient>
+    <pattern id="grain" width="41" height="37" patternUnits="userSpaceOnUse"><circle cx="7" cy="11" r=".65" fill="#547C6C" opacity=".13"/><circle cx="29" cy="29" r=".7" fill="#FFF8DE" opacity=".34"/><path d="M20 6h4M2 30h3" stroke="#F4ECD0" stroke-opacity=".16" stroke-linecap="round"/></pattern>
+    <filter id="haze" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+    <g id="leafA"><path d="M0 0C-11-2-16-12-13-21C-2-19 5-9 0 0Z" fill="url(#leaf)"/><path d="M0 0-10-15" stroke="#628E72" stroke-width="1.2" stroke-linecap="round"/></g>
+    <g id="leafB"><path d="M0 0C2-12 11-17 21-14C20-4 10 3 0 0Z" fill="#88B18C"/><path d="M0 0 15-11" stroke="#618D73" stroke-width="1.1" stroke-linecap="round"/></g>
+    <g id="flower"><path d="M0 8V-2" stroke="#6E9C79" stroke-width="1.5"/><circle cx="-3.5" cy="-4" r="3.2" fill="#FFF6D3"/><circle cx="2" cy="-7" r="3.2" fill="#FFF6D3"/><circle cx="6" cy="-2" r="3.2" fill="#FFF6D3"/><circle cx="0" cy="0" r="3.2" fill="#FFF6D3"/><circle cx="1" cy="-3" r="2.3" fill="#E9BD70"/></g>
+  </defs>
+
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <rect width="900" height="620" fill="url(#light)"/>
+  <path d="M638-20 359 620H529L731-20Z" fill="#FFF7DC" opacity=".11"/>
+  <path d="M727-20 595 620H694L781-20Z" fill="#FFFBE4" opacity=".12"/>
+  <circle cx="741" cy="83" r="70" fill="#FFF6D5" opacity=".15"/>
+  <circle cx="741" cy="83" r="53" fill="#FFF6D5" opacity=".22"/>
+  <circle cx="741" cy="83" r="38" fill="url(#sun)"/>
+  <path d="M722 70C727 61 740 57 751 62" stroke="#FFFCE9" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <g fill="#FFFBE7">
+    <path d="M70 108C57 104 61 91 74 91C75 74 95 69 105 79C115 59 143 66 146 85C162 79 178 88 175 103C188 103 193 114 184 118H69C63 117 64 111 70 108Z" opacity=".73"/>
+    <path d="M105 119H164" stroke="#FFFBE7" stroke-width="4" stroke-linecap="round" opacity=".34"/>
+    <path d="M445 43C437 39 441 31 451 32C456 19 476 18 483 30C498 25 510 32 510 43C520 40 528 46 525 52H438C432 49 437 43 445 43Z" opacity=".46"/>
+    <path d="M684 184C674 180 681 171 692 173C693 160 709 152 720 161C729 144 753 146 759 165C773 157 790 165 789 177C804 177 812 188 803 194H678C670 192 676 185 684 184Z" opacity=".54"/>
+    <path d="M243 247C235 244 242 237 251 239C258 226 273 225 282 236C296 232 307 237 307 247C320 245 326 253 320 257H239C233 254 237 248 243 247Z" opacity=".3"/>
+    <path d="M73 345C65 341 71 333 84 334C88 320 109 315 121 328C135 320 153 329 152 341C167 337 179 344 175 353H70C63 351 66 346 73 345Z" opacity=".56"/>
+  </g>
+  <g fill="#8BB5AC" opacity=".34">
+    <path d="M294 118q6-7 12 0q6-7 12 0q-6-3-12 3q-6-6-12-3Z"/>
+    <path d="M331 102q4-5 8 0q4-5 8 0q-4-2-8 2q-4-4-8-2Z"/>
+    <path d="M604 286q4-5 8 0q4-5 8 0q-4-2-8 2q-4-4-8-2Z"/>
+  </g>
+
+  <!-- Small, hazy islands sit far behind the playable space. -->
+  <g opacity=".36">
+    <path d="M106 211 119 235 135 245 149 275 168 243 183 239 195 212Z" fill="url(#remote)"/>
+    <path d="m121 216 14 29 14 30 7-45 12-17" fill="#B4D2BD"/>
+    <path d="M100 212q13-12 28-8q13-21 33-8q20-5 40 16q-46 11-101 0Z" fill="#97BCAF"/>
+    <path d="M119 207q15-7 26-2m15 0 25 3" stroke="#DCE9CE" stroke-width="3" stroke-linecap="round"/>
+    <path d="M730 310 745 331 753 359 769 340 780 333 789 310Z" fill="url(#remote)"/>
+    <path d="m745 313 9 46 14-31 10-15" fill="#C1D8C1"/>
+    <path d="M720 311q15-18 30-10q10-17 24-8q20 1 29 18q-41 10-83 0Z" fill="#9DBDAE"/>
+    <path d="M729 308q30-7 60 1" stroke="#E3EBD1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="155" cy="272" rx="81" ry="12" fill="#E8EFDA" opacity=".6" filter="url(#haze)"/>
+  <ellipse cx="760" cy="357" rx="66" ry="10" fill="#ECF0D9" opacity=".65" filter="url(#haze)"/>
+
+  <!-- The canyon recedes beneath a veil of warm atmospheric mist. -->
+  <path d="M0 447 56 431 92 446 134 416 174 436 210 429 259 470 301 449 345 474 387 468 425 497 467 477 514 490 559 458 600 464 646 430 683 445 730 414 773 431 818 418 859 438 900 428V620H0Z" fill="#B6C8B5" opacity=".48"/>
+  <path d="M0 509 73 477 120 489 156 474 211 511 260 493 302 518 347 511 395 543 455 520 503 539 560 509 607 519 657 482 705 498 756 468 798 492 850 482 900 496V620H0Z" fill="#93B8AA" opacity=".23"/>
+  <path d="M159 483 173 552 197 620M292 512 313 582 318 620M678 486 664 573 645 620M781 483 769 551 777 620" stroke="#A6C3AE" stroke-width="16" opacity=".17"/>
+  <rect y="406" width="900" height="214" fill="url(#mist)"/>
+  <path d="M190 447C333 420 504 433 663 448" stroke="#FAF3D9" stroke-opacity=".63" stroke-width="18" stroke-linecap="round" filter="url(#haze)"/>
+  <path d="M119 557C314 521 574 545 793 550" stroke="#FFF3D3" stroke-opacity=".63" stroke-width="22" stroke-linecap="round" filter="url(#haze)"/>
+
+  <!-- Framing cliffs: the center contains no physical game surfaces. -->
+  <path d="M0 139 24 151 32 176 53 187 44 220 66 249 62 287 91 312 84 345 108 374 92 413 103 447 83 476 96 507 72 539 83 584 65 620H0Z" fill="url(#rockL)"/>
+  <path d="M0 162 24 177 22 215 37 239 26 276 48 302 38 334 57 369 39 405 50 435 36 467 54 508 34 555 43 620H0Z" fill="#648E7C" opacity=".27"/>
+  <path d="m24 151 8 25 21 11-9 33 22 29-4 38 29 25-7 33 24 29-16 39 11 34-20 29 13 31-24 32 11 45-18 36" stroke="#EBDBB7" stroke-width="3" stroke-opacity=".57"/>
+  <path d="m16 267 32 6 14 14m-34 72 40 8 40 7m-84 81 37 7 22 14m-63 96 27 9 36 3" stroke="#7B9C85" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
+  <path d="m49 306 15 21-7 24m8 47 8 26-10 17m-16 69 9 25-8 28" stroke="#E4D6B4" stroke-width="2.5" stroke-linecap="round" opacity=".5"/>
+  <path d="M900 69 875 82 867 106 844 118 854 146 832 178 841 204 819 231 828 267 811 299 831 333 820 368 840 397 828 432 846 465 837 507 854 537 846 581 861 620H900Z" fill="url(#rockR)"/>
+  <path d="M900 91 883 118 888 156 870 190 881 219 859 246 870 282 854 313 870 354 861 390 880 420 866 454 885 500 872 542 885 578 880 620H900Z" fill="#678F7E" opacity=".28"/>
+  <path d="m875 82-8 24-23 12 10 28-22 32 9 26-22 27 9 36-17 32 20 34-11 35 20 29-12 35 18 33-9 42 17 30-8 44 15 39" stroke="#E7DAB9" stroke-width="3" stroke-opacity=".68"/>
+  <path d="m867 160 21-8m-50 83 30-8 32 6m-74 79 29 7 45-5m-63 95 32-6 31 7m-55 91 29-9 26 7m-51 80 25-9 26 3" stroke="#759581" stroke-width="2.5" stroke-linecap="round" opacity=".61"/>
+  <path d="m849 246-6 17 12 27m-10 58 12 20-6 27m13 75 7 24-9 23" stroke="#F0E2C1" stroke-width="2.5" stroke-linecap="round" opacity=".55"/>
+
+  <g fill="#7FA68A"><path d="M0 140q17-11 27 10q13 1 16 22q-18 10-43 5Z"/><path d="M900 64q-22 0-27 17q-22-3-28 21q30 13 55 6Z"/><path d="M0 516q20-20 36-4q17-8 26 9q18-2 22 19q-43 10-84 2Z"/><path d="M900 454q-18-15-35-1q-21-8-27 15q20 12 62 6Z"/></g>
+  <g stroke="#5E8D71" stroke-width="2.8" stroke-linecap="round">
+    <path d="M26 158C51 196 10 216 37 249S23 308 47 335"/>
+    <path d="M883 93C844 128 881 169 852 200S875 257 849 288"/>
+    <path d="M40 522C65 549 35 571 58 602"/>
+  </g>
+  <use href="#leafA" transform="translate(33 186) rotate(18)"/><use href="#leafB" transform="translate(31 207) rotate(-14)"/>
+  <use href="#leafA" transform="translate(30 235) rotate(-30)"/><use href="#leafB" transform="translate(38 260) rotate(16)"/>
+  <use href="#leafA" transform="translate(33 282) rotate(-21) scale(.85)"/><use href="#leafB" transform="translate(37 312) rotate(25) scale(.8)"/>
+  <use href="#leafA" transform="translate(865 126) rotate(42)"/><use href="#leafB" transform="translate(866 148) rotate(8)"/>
+  <use href="#leafA" transform="translate(865 175) rotate(42)"/><use href="#leafB" transform="translate(850 205) rotate(12)"/>
+  <use href="#leafA" transform="translate(859 231) rotate(18) scale(.85)"/><use href="#leafB" transform="translate(852 263) rotate(18) scale(.8)"/>
+  <use href="#leafA" transform="translate(49 550) rotate(-20)"/><use href="#leafB" transform="translate(48 574) rotate(20)"/>
+  <use href="#flower" transform="translate(20 150)"/><use href="#flower" transform="translate(8 141) scale(.75)"/>
+  <use href="#flower" transform="translate(878 83) scale(.85)"/><use href="#flower" transform="translate(891 72) scale(.7)"/>
+  <use href="#flower" transform="translate(38 520) scale(.9)"/><use href="#flower" transform="translate(65 532) scale(.7)"/>
+  <use href="#flower" transform="translate(866 461) scale(.85)"/>
+
+  <g fill="#FFF3BE" opacity=".74"><circle cx="118" cy="407" r="1.8"/><circle cx="784" cy="237" r="1.7"/><circle cx="132" cy="176" r="1.4"/><circle cx="809" cy="396" r="2"/><circle cx="91" cy="481" r="1.5"/><circle cx="757" cy="463" r="1.4"/></g>
+  <g fill="#FDF8D5" opacity=".7"><path d="m122 324 2-5 2 5 5 2-5 2-2 5-2-5-5-2Z"/><path d="m802 128 1.5-4 1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5Z"/></g>
+  <rect width="900" height="620" fill="url(#grain)" opacity=".38"/>
+</svg>

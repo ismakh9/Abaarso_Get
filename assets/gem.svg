@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60" fill="none">
+<defs><linearGradient id="gem" x1="8" y1="7" x2="42" y2="50" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe6a0"/><stop offset=".5" stop-color="#ffc36f"/><stop offset="1" stop-color="#e99354"/></linearGradient></defs>
+<ellipse cx="25" cy="55" rx="18" ry="3" fill="#9d754e" opacity=".15"/>
+<path d="m25 3 16 10 6 24-22 17L3 37l6-24Z" fill="url(#gem)" stroke="#cf8549" stroke-width="2" stroke-linejoin="round"/>
+<path d="m25 3-9 17 9 34 10-34Z" fill="#ffe09a"/><path d="M9 13 16 20 3 37Zm32 0-6 7 12 17Z" fill="#fbb86b"/><path d="m3 37 13-17 9 34Z" fill="#eaa05c"/><path d="m47 37-12-17-10 34Z" fill="#f6bc70"/>
+<path d="m15 15 9-6m-7 14 4 14" stroke="#fff4cf" stroke-width="3" stroke-linecap="round"/>
+<path d="m41 1 1.5 5L48 8l-5.5 1.5L41 15l-1.5-5.5L34 8l5.5-2Z" fill="#fff2bb"/>
+</svg>

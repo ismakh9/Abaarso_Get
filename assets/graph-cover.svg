@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" fill="none">
+<defs>
+ <linearGradient id="background" x1="300" y1="0" x2="300" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#b7e1df"/><stop offset="1" stop-color="#e2e7c6"/></linearGradient>
+ <linearGradient id="paper" x1="300" y1="29" x2="300" y2="286" gradientUnits="userSpaceOnUse"><stop stop-color="#fff9e9"/><stop offset="1" stop-color="#f4f2dc"/></linearGradient>
+ <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="#d9dfce" stroke-width="1"/></pattern>
+ <clipPath id="plot"><rect x="72" y="35" width="464" height="247" rx="13"/></clipPath>
+</defs>
+<path fill="url(#background)" d="M0 0h600v320H0z"/>
+<circle cx="566" cy="37" r="60" fill="#eaf1d1" opacity=".55"/><circle cx="25" cy="282" r="74" fill="#9cc8b5" opacity=".32"/>
+<path d="M0 268q91-20 173 2t172 0q127-26 255-5v55H0Z" fill="#bdd5b5" opacity=".45"/>
+<path d="M43 99q-21 49 0 92m513-91q21 31 12 58" stroke="#78b5a5" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 7" opacity=".5"/>
+<rect x="62" y="38" width="480" height="253" rx="22" fill="#6a9f91" opacity=".17"/>
+<rect x="62" y="25" width="480" height="261" rx="22" fill="#d2ddbd" stroke="#9ebba2" stroke-width="2"/>
+<rect x="66" y="25" width="472" height="254" rx="18" fill="url(#paper)" stroke="#f9fff0" stroke-width="3"/>
+<g clip-path="url(#plot)">
+ <!-- The two half-planes overlap on the right of the intersection. -->
+ <path d="M60 270 540 30V300H60Z" fill="#9dcad8" opacity=".43"/>
+ <path d="M60 10 540 250V20H60Z" fill="#edb6a3" opacity=".44"/>
+ <path d="M320 140 540 30V250Z" fill="#b7a8cc" opacity=".6"/>
+ <path fill="url(#grid)" d="M65 30h480v260H65z"/>
+ <!-- Axis and ticks. -->
+ <path d="M81 220H520M200 271V48" stroke="#8ca394" stroke-width="2" stroke-linecap="round"/>
+ <path d="m514 215 7 5-7 5m-319-170 5-8 5 8" stroke="#8ca394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M100 217v6m20-6v6m20-6v6m20-6v6m20-6v6m40-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6m20-6v6M197 60h6m-6 20h6m-6 20h6m-6 20h6m-6 20h6m-6 20h6m-6 20h6m-6 20h6m-6 40h6m-6 20h6" stroke="#9bb0a1" stroke-width="1.5"/>
+ <!-- Original graph lines, y = 0.5x + 1 and y = -0.5x + 7 in this plot's coordinates. -->
+ <path d="M60 270 540 30" stroke="#6c9faf" stroke-width="8" stroke-linecap="round" opacity=".15"/>
+ <path d="M60 270 540 30" stroke="#4c91ad" stroke-width="4" stroke-linecap="round"/>
+ <path d="M60 10 540 250" stroke="#bc8b7b" stroke-width="8" stroke-linecap="round" opacity=".12"/>
+ <path d="M60 10 540 250" stroke="#d0917c" stroke-width="4" stroke-linecap="round"/>
+ <!-- Large, graspable points suggest direct manipulation. -->
+ <g fill="#fff9e6" stroke="#4c91ad" stroke-width="3"><circle cx="200" cy="200" r="8"/><circle cx="440" cy="80" r="8"/></g>
+ <g fill="#fff9e6" stroke="#d0917c" stroke-width="3"><circle cx="160" cy="60" r="8"/><circle cx="480" cy="220" r="8"/></g>
+ <g fill="#4c91ad"><circle cx="200" cy="200" r="2.5"/><circle cx="440" cy="80" r="2.5"/></g>
+ <g fill="#d0917c"><circle cx="160" cy="60" r="2.5"/><circle cx="480" cy="220" r="2.5"/></g>
+ <!-- The common point is highlighted independently of the overlap region. -->
+ <circle cx="320" cy="140" r="21" fill="#fff7db" opacity=".52"/><circle cx="320" cy="140" r="11" fill="#fffae8" stroke="#8e7ca9" stroke-width="3"/><circle cx="320" cy="140" r="4.5" fill="#8e7ca9"/>
+ <path d="M321 152v55m11-67h71" stroke="#9a8caf" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="3 5" opacity=".6"/>
+</g>
+<text x="523" y="239" text-anchor="middle" font-family="Arial,sans-serif" font-style="italic" font-size="16" font-weight="700" fill="#789080">x</text>
+<text x="215" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-style="italic" font-size="16" font-weight="700" fill="#789080">y</text>
+<!-- A little pointer and sparkle make this feel like a playable graph. -->
+<g transform="translate(396 171) rotate(-10)"><path d="M0 0v30l9-8 7 15 7-3-7-14 12-1Z" fill="#fff8df" stroke="#8b99a0" stroke-width="2" stroke-linejoin="round"/><path d="M4 7v12" stroke="#fffef6" stroke-width="2" stroke-linecap="round"/></g>
+<path d="m566 204 3 8 8 3-8 3-3 8-3-8-8-3 8-3Zm-531-77 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#f7e7b1"/>
+<circle cx="558" cy="242" r="3" fill="#8eb9a6"/><circle cx="38" cy="229" r="3" fill="#f4e2ac"/>
+</svg>

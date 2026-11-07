@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" fill="none">
+<defs>
+ <linearGradient id="space" x1="45" y1="0" x2="550" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#132b48"/><stop offset=".52" stop-color="#253555"/><stop offset="1" stop-color="#4c3c66"/></linearGradient>
+ <radialGradient id="nebula"><stop stop-color="#8d6aa4" stop-opacity=".48"/><stop offset="1" stop-color="#8d6aa4" stop-opacity="0"/></radialGradient>
+ <radialGradient id="blueGlow"><stop stop-color="#69d4db" stop-opacity=".35"/><stop offset="1" stop-color="#69d4db" stop-opacity="0"/></radialGradient>
+ <linearGradient id="fire" x1="0" y1="-95" x2="0" y2="22" gradientUnits="userSpaceOnUse"><stop stop-color="#ed7690" stop-opacity="0"/><stop offset=".35" stop-color="#ec8c75" stop-opacity=".7"/><stop offset=".75" stop-color="#f5b66f"/><stop offset="1" stop-color="#ffe1a0"/></linearGradient>
+ <linearGradient id="rock" x1="-38" y1="-30" x2="35" y2="37" gradientUnits="userSpaceOnUse"><stop stop-color="#aa807c"/><stop offset="1" stop-color="#765b70"/></linearGradient>
+ <linearGradient id="cyanShip" x1="-28" y1="-42" x2="35" y2="35" gradientUnits="userSpaceOnUse"><stop stop-color="#bde9dd"/><stop offset=".5" stop-color="#70c0c5"/><stop offset="1" stop-color="#4e8ea7"/></linearGradient>
+ <linearGradient id="pinkShip" x1="-28" y1="-42" x2="35" y2="35" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d1cf"/><stop offset=".5" stop-color="#db96b9"/><stop offset="1" stop-color="#a46b9e"/></linearGradient>
+ <linearGradient id="flameCyan" x1="0" y1="24" x2="0" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#fff2c2"/><stop offset=".27" stop-color="#9de7e3"/><stop offset="1" stop-color="#64d0d9" stop-opacity="0"/></linearGradient>
+ <linearGradient id="flamePink" x1="0" y1="24" x2="0" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#fff0c9"/><stop offset=".27" stop-color="#f1bad7"/><stop offset="1" stop-color="#d394d4" stop-opacity="0"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+ <g id="smallStar"><path d="M0-5 1.5-1.5 5 0 1.5 1.5 0 5-1.5 1.5-5 0-1.5-1.5Z" fill="#e1e8d8"/></g>
+</defs>
+<path fill="url(#space)" d="M0 0h600v320H0z"/>
+<ellipse cx="495" cy="98" rx="215" ry="165" fill="url(#nebula)"/><ellipse cx="103" cy="248" rx="202" ry="159" fill="url(#blueGlow)"/>
+<path d="M-15 181q123-85 265-37t367-95" stroke="#80a8c4" stroke-width="35" opacity=".07" filter="url(#soft)"/><path d="M72 331q167-145 338-111t224-34" stroke="#d4a1c0" stroke-width="45" opacity=".06" filter="url(#soft)"/>
+<g fill="#c9dfdb" opacity=".7"><circle cx="35" cy="45" r="1.5"/><circle cx="93" cy="104" r="1"/><circle cx="282" cy="31" r="1.6"/><circle cx="331" cy="84" r="1"/><circle cx="560" cy="58" r="1.5"/><circle cx="529" cy="157" r="1.2"/><circle cx="35" cy="226" r="1.1"/><circle cx="263" cy="194" r="1.5"/><circle cx="354" cy="255" r="1"/><circle cx="567" cy="273" r="1.6"/><circle cx="91" cy="281" r="1.3"/><circle cx="407" cy="172" r="1.2"/><circle cx="205" cy="168" r="1"/><circle cx="311" cy="302" r="1.4"/><circle cx="488" cy="294" r="1"/></g>
+<g opacity=".6"><use href="#smallStar" transform="translate(50 157)"/><use href="#smallStar" transform="translate(352 34) scale(.7)"/><use href="#smallStar" transform="translate(554 201) scale(.8)"/><use href="#smallStar" transform="translate(299 241) scale(.7)"/></g>
+<!-- Distant planet, kept subtle behind the two lanes. -->
+<circle cx="305" cy="117" r="26" fill="#7a789f" opacity=".34"/><path d="M283 106q21-9 43 0m-44 10q23-7 47 3m-40 8q15-2 31 3" stroke="#b8a1bb" stroke-width="4" opacity=".15"/><ellipse cx="305" cy="119" rx="43" ry="8" transform="rotate(-23 305 119)" stroke="#a39cbc" stroke-width="2" opacity=".23"/>
+<!-- Two approaching equation meteors. -->
+<g transform="translate(155 98) rotate(-9)">
+ <path d="M-34-6q-11-29-6-52 9 11 12 7-6-24 0-43 12 24 24 36 3-25 8-32 5 32 20 46 1-16 9-23 1 31 10 56L18 27Z" fill="url(#fire)"/>
+ <path d="M-21-19q-4-29 0-41 9 24 16 28 5-14 9-22 6 27 14 34" stroke="#ffdc94" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+ <path d="m-38-19 22-21 26-1 28 15 11 28-13 28-29 12-31-9-21-20Z" fill="#eea56d" stroke="#f3c585" stroke-width="3"/>
+ <path d="m-33-18 18-16 25-1 23 13 10 25-12 23-25 10-26-8-19-21Z" fill="url(#rock)"/>
+ <path d="m-27-18 15-10 21 1" stroke="#c39388" stroke-width="4" stroke-linecap="round"/><circle cx="-23" cy="15" r="7" fill="#6d596b"/><circle cx="25" cy="-12" r="6" fill="#796071"/><path d="m13 23 8 4 10-6" stroke="#62556b" stroke-width="4" stroke-linecap="round"/>
+ <rect x="-37" y="-11" width="77" height="25" rx="8" fill="#fff0c8" stroke="#cdab86" stroke-width="1.5"/>
+ <text x="1.5" y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#7b5e68">x + 3 = 7</text>
+</g>
+<g transform="translate(447 88) rotate(10)">
+ <path d="M-34-6q-8-24-5-47 8 9 14 10-7-22-3-44 11 23 22 35 4-23 9-29 7 27 17 42 2-17 10-21 0 29 12 51L16 28Z" fill="url(#fire)"/>
+ <path d="M-18-20q-2-22 1-37 8 19 14 25 5-15 9-20 6 22 14 31" stroke="#ffdc94" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+ <path d="m-36-18 19-21 26-2 28 16 10 26-11 27-29 14-29-10-20-20Z" fill="#efa771" stroke="#f3c585" stroke-width="3"/>
+ <path d="m-31-17 16-17 24-1 24 13 9 23-11 23-24 13-25-9-17-18Z" fill="url(#rock)"/>
+ <path d="m-24-18 13-10 18 2" stroke="#c39388" stroke-width="4" stroke-linecap="round"/><circle cx="-24" cy="15" r="6" fill="#6d596b"/><circle cx="25" cy="-11" r="5" fill="#796071"/><circle cx="18" cy="25" r="4" fill="#69556b"/>
+ <rect x="-30" y="-10" width="62" height="25" rx="8" fill="#fff0c8" stroke="#cdab86" stroke-width="1.5"/>
+ <text x="1" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#7b5e68">2x = 8</text>
+</g>
+<!-- Straight missile trails make the ships' fixed-forward aim easy to read. -->
+<path d="M155 195v-42" stroke="#66d3d8" stroke-width="7" stroke-linecap="round" opacity=".2"/><path d="M155 186v-30" stroke="#bdfff1" stroke-width="3" stroke-linecap="round"/><path d="m151 156 4-10 4 10" fill="#fff3c4"/>
+<path d="M447 187v-36" stroke="#e6a0ce" stroke-width="7" stroke-linecap="round" opacity=".2"/><path d="M447 179v-25" stroke="#ffe2ed" stroke-width="3" stroke-linecap="round"/><path d="m443 154 4-10 4 10" fill="#fff1c9"/>
+<!-- Cyan pilot ship. -->
+<g transform="translate(155 237)">
+ <ellipse cy="24" rx="52" ry="25" fill="#61d2d9" opacity=".08"/>
+ <path d="m-11 25 11 65 11-65" fill="url(#flameCyan)"/><path d="m-5 28 5 38 5-38" fill="#e0fff3" opacity=".85"/>
+ <path d="M-17-1-46 29-41 41-13 25m30-26 29 30-5 12-28-16" fill="#508d9e" stroke="#315f79" stroke-width="2" stroke-linejoin="round"/>
+ <path d="M-13-20 0-49 13-20 22 27 10 35H-10l-12-8Z" fill="url(#cyanShip)" stroke="#3d7e95" stroke-width="2" stroke-linejoin="round"/>
+ <path d="m0-40-8 24h16Z" fill="#e2f3df"/><path d="M-8-14Q0-23 8-14l3 17q-11 8-22 0Z" fill="#355876" stroke="#80bbc6" stroke-width="1.5"/><path d="M-5-12 0-16 5-12" stroke="#a5ded9" stroke-width="2" stroke-linecap="round"/>
+ <path d="M-9 10v16m18-16v16" stroke="#c7ede0" stroke-width="3" stroke-linecap="round"/><path d="M-11 28H11v8H-11Z" fill="#3e657a"/><rect x="-5" y="29" width="10" height="6" rx="2" fill="#a7ebe0"/>
+ <path d="m-28 22-6 8m62-8 6 8" stroke="#a8dcca" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- Pink pilot ship, the same size and orientation for two equal players. -->
+<g transform="translate(447 237)">
+ <ellipse cy="24" rx="52" ry="25" fill="#e49dc9" opacity=".09"/>
+ <path d="m-11 25 11 65 11-65" fill="url(#flamePink)"/><path d="m-5 28 5 38 5-38" fill="#fff0e3" opacity=".85"/>
+ <path d="M-17-1-46 29-41 41-13 25m30-26 29 30-5 12-28-16" fill="#a074a7" stroke="#714f81" stroke-width="2" stroke-linejoin="round"/>
+ <path d="M-13-20 0-49 13-20 22 27 10 35H-10l-12-8Z" fill="url(#pinkShip)" stroke="#92638f" stroke-width="2" stroke-linejoin="round"/>
+ <path d="m0-40-8 24h16Z" fill="#f9e3d5"/><path d="M-8-14Q0-23 8-14l3 17q-11 8-22 0Z" fill="#594d78" stroke="#bf95bc" stroke-width="1.5"/><path d="M-5-12 0-16 5-12" stroke="#efc4d5" stroke-width="2" stroke-linecap="round"/>
+ <path d="M-9 10v16m18-16v16" stroke="#f1d6df" stroke-width="3" stroke-linecap="round"/><path d="M-11 28H11v8H-11Z" fill="#73577e"/><rect x="-5" y="29" width="10" height="6" rx="2" fill="#f0c7de"/>
+ <path d="m-28 22-6 8m62-8 6 8" stroke="#e8bbd0" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g fill="#e8eccd"><path d="m221 119 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z"/><path d="m389 139 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z"/></g>
+<path d="M294 171h12m-6-6v12" stroke="#9eb8cc" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+</svg>
